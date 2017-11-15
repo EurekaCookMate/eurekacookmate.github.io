@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+
+
+body { 
+  background-color: black;
+    
+
+}
+html * {
+   font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    color: white;
+    
+
+}
+
+.navMain{
+  background-color: darkblue;
+  padding: 1px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  line-height: 40px;
+  margin-bottom: 50px;
+    
+
+  
+
+
+}
+
+.navMain ul{
+  margin: 0;
+  padding: 0;
+  display: inline;
+    
+    
+  
+
+}
+
+.navMain ul li{
+    display: inline-block;
+  
+    
+    
+}
+
+.navMain ul li a {
+  text-decoration: none;
+  color: white;
+  float: center;
+  display: block;
+  padding: 10px 20px;
+  font-weight: bolder;
+    
+
+    
+    
+  
+    
+
+
+}
+
+.navMain ul li a:hover {
+    transition: all, 0.5s;
+    color: red;
+}
+
+
+
+#buttonClick {
+	color: black;
+}
+#buttonClick:hover {
+    transition: all, 0.3s;
+	color: white;
+    
+    background-color: black;
+    
+}
+
+#buttonClick2 {
+	color: black;
+}
+#buttonClick2:hover {
+    transition: all, 0.3s;
+	color: white;
+    
+    background-color: black;
+    
+}
+
+#buttonClick3 {
+	color: black;
+}
+#buttonClick3:hover {
+    transition: all, 0.3s;
+	color: white;
+    
+    background-color: black;
+    
+}
+
+#clear {
+	color: black;
+}
+#clear:hover {
+    transition: all, 0.3s;
+	color: white;
+    
+    background-color: black;
+    
+}
