@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$ ( document ).ready(function(){
   
   
   $("#buttonClick").click(function() {
@@ -73,15 +73,13 @@ $(document).ready(function(){
     
     
     
-  $("#Clear").click(function() {
+  $("#clear").click(function() {
        $('#Cups').val("");
        $('#Ml').val("");
        $("#tbsp").val("");
        $("#tsp").val("");
        $('#grams').val("");
        $('#pounds').val("");
-       
-    
        
        
       
@@ -220,20 +218,23 @@ $(document).ready(function(){
       
     
    
-
-    });
-     
-
-
-    
-    
-  
-    
-    
     
     
     
   
 
+    
+    
+  });
+    
+    
+    
+    
+    
+  
+});
+   
+                              
+   
  
     
