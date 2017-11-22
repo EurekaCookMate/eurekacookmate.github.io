@@ -74,12 +74,15 @@ $ ( document ).ready(function(){
     
     
   $("#clear").click(function() {
-       $('#Cups').val("");
-       $('#Ml').val("");
+       $('#cups').val("");
+       $('#ml').val("");
        $("#tbsp").val("");
        $("#tsp").val("");
        $('#grams').val("");
        $('#pounds').val("");
+       $('#cups2').val("");
+       $('#grams2').val("");
+    
        
        
       
@@ -235,6 +238,70 @@ $ ( document ).ready(function(){
 });
    
                               
+   
+
+});
+    
+    $("#buttonClick4").click(function() {
+    
+     
+     
+        
+     
+     
+       var cups2 = $('#cups2').val();
+       var grams2 = $('#grams2').val();
+    
+    
+    
+    
+      var num1 = parseFloat(cups2);
+      var num2 = parseFloat(grams2);
+      var num3 = 0;
+      
+      var cups2Inactive = false;
+      var grams2Inactive = false;
+      
+      
+      if(cups2.length == 0){
+          cups2Inactive = true;
+          
+          
+      }
+      
+      if(grams2.length == 0){
+          grams2Inactive = true;
+          
+          
+      }
+      
+      if(cups2Inactive == true && grams2Inactive == true){
+          alert("Please enter a number!");
+      }
+      
+      if(cups2Inactive == false && grams2Inactive == false){
+          alert("Please only enter one number!");
+         
+         
+         
+         }
+      
+       else if(cups2Inactive == false && grams2Inactive == true){
+           num3 = num1 / 3;
+           $('#grams2').val(num3);
+           
+           
+       }
+      
+      
+      else if(cups2Inactive == true && grams2Inactive == false){
+           num3 = num2 * 3;
+           $('#cups2').val(num3);
+           
+           
+       }
+      
+    
    
  
     
