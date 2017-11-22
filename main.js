@@ -80,8 +80,7 @@ $ ( document ).ready(function(){
        $("#tsp").val("");
        $('#grams').val("");
        $('#pounds').val("");
-       $('#cups2').val("");
-       $('#grams2').val("");
+       
     
        
        
