@@ -234,15 +234,6 @@ $ ( document ).ready(function(){
     
     
   
-});
-   
-                              
-   
 
-});
-   
-
-});
-   
  
     
