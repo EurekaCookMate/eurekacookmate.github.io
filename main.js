@@ -74,8 +74,8 @@ $(document).ready(function(){
     
     
   $("#Clear").click(function() {
-       $('#cups').val("");
-       $('#ml').val("");
+       $('#Cups').val("");
+       $('#Ml').val("");
        $("#tbsp").val("");
        $("#tsp").val("");
        $('#grams').val("");
