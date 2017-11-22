@@ -73,7 +73,7 @@ $ ( document ).ready(function(){
     
     
     
-  $("#clear").click(function() {
+  $("#Clear").click(function() {
        $('#cups').val("");
        $('#ml').val("");
        $("#tbsp").val("");
