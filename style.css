@@ -8,6 +8,15 @@ body {
     
 
 }
+
+
+h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+
+font-weight: normal;
+
+}
+
+
 html * {
    font-family: 'Quicksand', sans-serif;
     margin: 0;
@@ -85,6 +94,9 @@ html * {
     transition-duration: 0.6s;
     cursor: pointer;
     line-height: 20px;
+    background-color: white;
+    line-height: 1em;
+    padding: 0px;
 }
 #buttonClick:hover {
     transition: all, 0.3s;
@@ -96,7 +108,6 @@ html * {
 
 #buttonClick2 {
 	color: black;
-	border: none;
     color: black;
     padding: 16px 32px;
     text-align: center;
@@ -107,6 +118,9 @@ html * {
     transition-duration: 0.6s;
     cursor: pointer;
     line-height: 20px;
+    background-color: white;
+    line-height: 1em;
+    padding: 0px;
     
 }
 #buttonClick2:hover {
@@ -119,7 +133,7 @@ html * {
 
 #buttonClick3 {
 	color: black;
-	border: none;
+	
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -129,6 +143,9 @@ html * {
     transition-duration: 0.6s;
     cursor: pointer;
     line-height: 20px;
+    background-color: white;
+    line-height: 1em;
+    padding: 0px;
 }
 #buttonClick3:hover {
     transition: all, 0.3s;
@@ -136,12 +153,11 @@ html * {
     
     background-color: black;
     
+    
 }
 
 #clear {
 	color: black;
-	border: none;
-    color: black;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -150,7 +166,9 @@ html * {
     -webkit-transition-duration: 0.6s; /* Safari */
     transition-duration: 0.6s;
     cursor: pointer;
-    line-height: 20px;
+    background-color: white;
+    line-height: 1em;
+    padding: 0px;
 }
 #clear:hover {
     transition: all, 0.3s;
