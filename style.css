@@ -177,3 +177,18 @@ html * {
     background-color: black;
     
 }
+.cookLogo2 {
+	filter: invert(100%);
+}
+
+.cookLogo3 {
+    filter: invert(0%);
+}
+
+.cookLogo4 {
+	filter: invert(100%);
+}
+
+.cookLogo5 {
+    filter: invert(0%);
+}
