@@ -1,6 +1,48 @@
 $ ( document ).ready(function(){
   
-  
+    var black = false;
+    var white = true;
+    var black2 = false;
+    var white2 = false;
+  $("#cookLogo").click(function(){
+      if(white == true){
+         $('#cookLogo').addClass('cookLogo2');
+           black = true;
+           white = false;
+          console.log("black")
+           
+          
+          
+      }
+      
+      else if(black == true){
+         $('#cookLogo').addClass('cookLogo3');
+          black = false;
+          white2 = true;
+          console.log("white")
+          
+      }
+      else if(white2 == true){
+         $('#cookLogo').addClass('cookLogo4');
+          black2 = false;
+          white2 = true;
+          console.log("white")
+          
+      }
+      else if(black2 == true){
+         $('#cookLogo').addClass('cookLogo5');
+          black2 = false;
+          white2 = true;
+          console.log("white")
+          
+      }
+      
+      
+      
+      
+      
+  });
+    
   $("#buttonClick").click(function() {
     
      
